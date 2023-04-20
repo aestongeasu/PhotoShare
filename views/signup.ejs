@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>PhotoShare</title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <header>
+    <%- include("templates/header.ejs"); %>
+  </header>
+  <body>
+    <h1>Sign Up For PhotoShare</h1>
+    <form method="#">
+        <label for="myFName">First Name:</label><br /><input id="myFName" type="text" name="myFName" required="" /><br />
+        <label for="myLName">Last Name:</label><br /><input id="myLName" type="text" name="myLName" required="" /><br />
+        <label for="myEmail">Email:</label><br /><input id="myEmail" type="email" name="myEmail" required="" /><br />
+        <label for="Hometown">Hometown:</label><br /><input id="Hometown" type="text" name="Hometown" required="" /><br />
+        <label for="bday">Date of Birth:</label><br /><input id="bday" type="date" name="bday" /><br /><label for="gender">Gender:</label>
+        <select id="gender" name="gender">
+            <option value="Select One">Select One</option>
+            <option value="male">Male</option>
+            <option value="Female">Female</option>
+            <option value="Other">Other</option>
+        </select><br />
+        <label for="uName">Username:</label><br /><input id="uName" type="text" name="uName" required="" /><br />
+        <label for="pwd">Password:</label><br /><input id="pwd" type="password" name="pwd" /><br /><br />
+        <input type="submit" />   
+    </form>
+  </body>
+  
+ 
